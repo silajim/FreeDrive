@@ -11,7 +11,7 @@ QList<QString> freeDrives(){
         if (!(dwDriveMap & (1<<drive)))        {
 
 //            std::cout << char('A'+drive) << ":" << std::endl;
-            d<<QString(char('A'+drive))+R"(:\)";
+            d<<QString(char('A'+drive));
         }
     }
     return d;
